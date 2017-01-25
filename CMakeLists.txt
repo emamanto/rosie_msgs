@@ -50,6 +50,7 @@ add_message_files(
   ObjectData.msg
   Observations.msg
   SoarObjects.msg
+  TrainingLabel.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -104,7 +105,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES rosie_msgs
-CATKIN_DEPENDS message_runtime geometry_msgs std_msgs 
+CATKIN_DEPENDS message_runtime geometry_msgs std_msgs
 #  DEPENDS system_lib
 )
 
