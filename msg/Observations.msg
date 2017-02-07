@@ -1,7 +1,7 @@
 Header header
 
 int32 click_id
-time soar_utime
+uint32 soar_utime
 
 float32[] eye
 float32[] lookat
