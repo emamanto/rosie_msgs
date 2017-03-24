@@ -52,6 +52,8 @@ add_message_files(
   SoarObjects.msg
   TrainingLabel.msg
   TrainingData.msg
+  RobotAction.msg
+  RobotCommand.msg
 )
 
 ## Generate services in the 'srv' folder
