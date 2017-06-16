@@ -54,6 +54,7 @@ add_message_files(
   TrainingData.msg
   RobotAction.msg
   RobotCommand.msg
+  SetStateCommand.msg
 )
 
 ## Generate services in the 'srv' folder
