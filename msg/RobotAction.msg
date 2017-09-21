@@ -1,6 +1,7 @@
 uint64 utime
 
 string action
+bool armHome
 uint32 obj_id
 string failure_reason
 
